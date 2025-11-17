@@ -11965,3 +11965,188 @@ td.product-thumbnail img {
 /*# sourceMappingURL=main.css.map */
 
 
+/* SECTION BACKGROUND */
+.eduplay-section {
+  
+  padding: 70px;
+}
+
+/* CONTAINER */
+.eduplay-container {
+  max-width: 1350px;
+  margin: auto;
+  text-align: center;
+}
+
+/* MAIN HEADING */
+.eduplay-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a4d1a;
+  margin-bottom: 18px;
+}
+
+/* MAIN DESCRIPTION */
+.eduplay-desc {
+  font-size: 18px;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto 45px auto;
+  line-height: 1.7;
+}
+
+/* BOX GRID */
+.eduplay-box-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 35px;
+  margin-top: 40px;
+}
+
+/* PREMIUM BOX STYLE */
+.eduplay-box {
+background:#e8f7e852;
+  border-radius: 20px;
+  padding: 35px 30px;
+  border: 1px solid #dcecdc;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+      align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOP GRADIENT LINE */
+.eduplay-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, #4CAF50, #2E7D32);
+  border-radius: 20px 20px 0 0;
+}
+
+/* HOVER EFFECT */
+.eduplay-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* ICON */
+.eduplay-box .icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  background: #48733938;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+/* BOX TITLE */
+.eduplay-box h3 {
+  font-size: 22px;
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: #1a3f1a;
+}
+
+/* BOX PARAGRAPH */
+.eduplay-box p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* SECTION */
+.infographic-section {
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.infographic-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.infographic-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a4d1a;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* GRID */
+.infographic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 55px;
+}
+
+/* MAIN BOX */
+.infographic-box {
+    position: relative;
+    background: #ffffff;
+    border-radius: 45px 45px 60px 60px;
+    padding: 55px 25px 35px;
+    border: 2px solid #48733947;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: .3s 
+ease;
+}
+
+.infographic-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.12);
+}
+
+/* TOP HALF-CIRCLE NUMBER BADGE */
+.infographic-number {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--it-theme-2);
+  color: #fff;
+  width: 95px;
+  height: 55px;
+  border-radius: 60px 60px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* ICON */
+.infographic-icon {
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+/* TITLE */
+.infographic-box h4 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #253542;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.infographic-box p {
+  font-size: 15px;
+  color: #556270;
+  line-height: 1.6;
+  margin: 0;
+}
